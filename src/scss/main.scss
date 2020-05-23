@@ -1,0 +1,15 @@
+@import 'bootstrap-scss/bootstrap.scss';
+@import './_product-list.scss';
+@import './_cart.scss';
+@import './_product.scss';
+@import './_product-detail.scss';
+@import './_navbar.scss';
+@import './_checkout.scss';
+@import './search-bar';
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+    height: 100vh;
+}
+

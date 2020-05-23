@@ -1,0 +1,34 @@
+.cart-container {
+    width: 360px;
+    padding: 28px;
+    padding-bottom: 46px;
+
+    .button-remove {
+        margin-left: 5px;
+        height: 27px;
+        line-height: 1em !important;  //this overrides an existing BS style
+        font-size: 18px !important;  //ditto
+    }
+
+    ul {
+        list-style: none;
+        margin-left: -36px;
+    }
+
+    .item-details {
+        font-size: 1.2em;
+    }
+
+    input[type="number"] {
+        width: 60px;
+    }
+
+    #btnCheckout {
+        float: left;
+        margin-right: 20px;
+    }
+
+    #btnClear {
+        float: left;
+    }
+}

@@ -1,0 +1,12 @@
+.search-results-container {
+    display: block;
+    overflow: auto;
+    
+    .product-item-container {
+        margin-bottom: 15px;
+        padding: 10px;
+        cursor: pointer; 
+        background-color: lightblue;
+    }    
+}
+

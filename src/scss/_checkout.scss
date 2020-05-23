@@ -1,0 +1,15 @@
+@import './_cart.scss';
+
+.checkout-container {
+    padding: 15px 20px;
+
+    ul.checkout-item-list {
+        list-style: none;
+        margin-left: 0px;
+    }
+
+    .checkout-item-total {
+        font-size: 18px;
+        font-weight: 600;
+    }
+}

@@ -1,0 +1,74 @@
+{
+  "catalog": [
+    {
+      "name": "Widget 1",
+      "price": "4600.00",
+      "id": 1,
+      "currency": "AUD",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "name": "Widget 2",
+      "price": "3750.00",
+      "id": 2,
+      "currency": "AUD",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "name": "Widget 3",
+      "price": "4500.00",
+      "id": 3,
+      "currency": "AUD",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "name": "Widget 4",
+      "price": "4500",
+      "id": 4,
+      "currency": "AUD",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "name": "Widget 5",
+      "price": "4900",
+      "id": 5,
+      "currency": "AUD",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "name": "Widget 6",
+      "price": "4600",
+      "id": 6,
+      "currency": "AUD",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "name": "Widget 7",
+      "price": "5900",
+      "id": 7,
+      "currency": "AUD",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "name": "Widget 8",
+      "price": "2100",
+      "id": 8,
+      "currency": "AUD",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "name": "Widget 9",
+      "price": "1900",
+      "id": 9,
+      "currency": "AUD",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "name": "Widget 10",
+      "price": "6900",
+      "id": 10,
+      "currency": "AUD",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    }
+  ]
+}
