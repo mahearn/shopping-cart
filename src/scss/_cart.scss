@@ -1,34 +1,40 @@
 .cart-container {
-    width: 360px;
-    padding: 28px;
-    padding-bottom: 46px;
+  width: 360px;
+  padding: 28px;
+  padding-bottom: 46px;
 
-    .button-remove {
-        margin-left: 5px;
-        height: 27px;
-        line-height: 1em !important;  //this overrides an existing BS style
-        font-size: 18px !important;  //ditto
-    }
+  .button-remove {
+    margin-left: 5px;
+    height: 27px;
+    line-height: 1em !important; //this overrides an existing BS style
+    font-size: 18px !important; //ditto
+  }
 
-    ul {
-        list-style: none;
-        margin-left: -36px;
-    }
+  ul {
+    list-style: none;
+    margin-left: -36px;
 
-    .item-details {
-        font-size: 1.2em;
+    li.cart-item {
+      margin-left: 0;
+      margin-bottom: 1.5rem;
+      border-bottom: solid #c3c3c3 1px;
     }
+  }
 
-    input[type="number"] {
-        width: 60px;
-    }
+  .item-details {
+    font-size: 1.2em;
+  }
 
-    #btnCheckout {
-        float: left;
-        margin-right: 20px;
-    }
+  input[type='number'] {
+    width: 60px;
+  }
 
-    #btnClear {
-        float: left;
-    }
+  #btnCheckout {
+    float: left;
+    margin-right: 20px;
+  }
+
+  #btnClear {
+    float: left;
+  }
 }

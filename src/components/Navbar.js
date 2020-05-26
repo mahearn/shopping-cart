@@ -1,6 +1,5 @@
 import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
-// import { useAuth0 } from "../react-auth0-spa";
 
 import Context from '../store/context';
 import Cart from './Cart';
@@ -13,10 +12,6 @@ function Navbar() {
     return tot;
   }, 0);
   let total = state.grandTotal;
-  // const { isAuthenticated, loginWithRedirect, logout } = useAuth0();
-  // const logoutWithRedirect = () => logout({
-  //   returnTo: window.location.origin
-  // });
 
   return (
     <div className="container">

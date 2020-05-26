@@ -1,72 +1,109 @@
 {
-  "catalog": [
+  "products": [
     {
-      "name": "Widget 1",
-      "price": "4600.00",
+      "type": "course",
+      "name": "Google Analytics Basics",
+      "price": 600,
       "id": 1,
       "currency": "AUD",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
-      "name": "Widget 2",
-      "price": "3750.00",
+      "type": "course",
+      "name": "Content Marketing",
+      "price": 750,
       "id": 2,
       "currency": "AUD",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
-      "name": "Widget 3",
-      "price": "4500.00",
+      "type": "e-book",
+      "name": "Data Science made easy",
+      "author": "Anne Author",
+      "price": 22.5,
+      "id": 11,
+      "currency": "AUD",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "type": "course",
+      "name": "How to Write & Deliver Good Digital Content",
+      "price": 1500,
       "id": 3,
       "currency": "AUD",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
-      "name": "Widget 4",
-      "price": "4500",
+      "type": "course",
+      "name": "Introduction to Behavioural Economics",
+      "price": 1500,
       "id": 4,
       "currency": "AUD",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
-      "name": "Widget 5",
-      "price": "4900",
+      "type": "e-book",
+      "name": "SEO for dummies",
+      "author": "Ima Dummy",
+      "price": 19.99,
+      "id": 13,
+      "currency": "AUD",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "type": "course",
+      "name": "Data-driven Marketing Basics",
+      "price": 1900,
       "id": 5,
       "currency": "AUD",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
-      "name": "Widget 6",
-      "price": "4600",
+      "type": "course",
+      "name": "Sentiment Analysis",
+      "price": 1600,
       "id": 6,
       "currency": "AUD",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
-      "name": "Widget 7",
-      "price": "5900",
+      "type": "course",
+      "name": "Digital Marketing Intensive",
+      "price": 2900,
       "id": 7,
       "currency": "AUD",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
-      "name": "Widget 8",
-      "price": "2100",
+      "type": "course",
+      "name": "Analytics Fundamentals",
+      "price": 600,
       "id": 8,
       "currency": "AUD",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
-      "name": "Widget 9",
-      "price": "1900",
+      "type": "course",
+      "name": "Data-driven Marketing Essentials",
+      "price": 1900,
       "id": 9,
       "currency": "AUD",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
-      "name": "Widget 10",
-      "price": "6900",
+      "type": "course",
+      "name": "Digital Marketing Intensive",
+      "price": 2900,
       "id": 10,
+      "currency": "AUD",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "type": "e-book",
+      "name": "An Introduction to Exa-flops",
+      "author": "A. Nerd",
+      "price": 29.95,
+      "id": 12,
       "currency": "AUD",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     }

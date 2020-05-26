@@ -1,26 +1,19 @@
-import React from 'react'
+import React from 'react';
 
-import Course from './Course'
-import Event from './Event'
-import LoadingSpinner from './LoadingSpinner'
- 
+import Course from './Course';
+import EBook from './EBook';
+import LoadingSpinner from './LoadingSpinner';
+
 const Product = (props) => {
-  	
-  	return (
-      <>
-      {!props &&
-        <LoadingSpinner />
-      }
+  return (
+    <>
+      {!props && <LoadingSpinner />}
 
-      {props.type === "course" &&
-        <Course />
-      }
-      
-      {props.type === "event" &&
-        <Event />
-      }
-      </>
-  	);
-}
+      {props.type === 'course' && <Course />}
 
-export default Product
+      {props.type === 'e-book' && <EBook />}
+    </>
+  );
+};
+
+export default Product;

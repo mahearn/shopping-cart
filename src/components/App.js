@@ -13,7 +13,7 @@ import ProductList from './ProductList';
 import Register from './Register';
 
 function App() {
-  const { state, actions } = useContext(Context);
+  const { actions } = useContext(Context);
 
   /*  Every time this component mounts, need to load data from local storage into state, through login and logout events,
       where the app is refreshed due to callbacks from the auth api.
