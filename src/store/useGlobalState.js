@@ -1,10 +1,6 @@
 import { useState } from 'react';
 
-const INIT_AUTH = 'INIT_AUTH';
-const SET_AUTH = 'SET_AUTH';
-const LOGIN_WITH_REDIRECT = 'LOGIN_WITH_REDIRECT';
-const GET_TOKEN_SILENTLY = 'GET_TOKEN_SILENTLY';
-const GET_ID_TOKEN_CLAIMS = 'GET_ID_TOKEN_CLAIMS';
+const AUTHENTICATE = 'AUTHENTICATE';
 const LOGOUT = 'LOGOUT';
 const SET_PRODUCTS = 'SET_PRODUCTS';
 const SET_PRODUCT = 'SET_PRODUCT';
@@ -23,27 +19,17 @@ const useGlobalState = () => {
     cartContents: [],
     grandTotal: 0,
     isLoading: true,
+    isAuthenticated: true, //mocked here for now, until we set up OAuth
   });
 
   const actions = (action) => {
     const { type, payload } = action;
     switch (type) {
-      case INIT_AUTH:
+      case AUTHENTICATE:
         return setState(payload);
-
-      case SET_AUTH:
-        return setState(payload);
-
-      case LOGIN_WITH_REDIRECT:
-        return setState(payload);
-
-      case GET_TOKEN_SILENTLY:
-        return null;
-
-      case GET_ID_TOKEN_CLAIMS:
-        return null;
 
       case LOGOUT:
+        //TODO: ??
         return null;
 
       case SET_PRODUCTS:

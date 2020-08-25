@@ -28,9 +28,16 @@ function Navbar() {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse">
-          <ul className="navbar-nav mr-auto">
+          <ul className="navbar-nav ml-auto">
             <li className="nav-item">
-              <Link to="/">Home</Link>
+              <a className="nav-link" href="#">
+                Sign up
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#">
+                Logout
+              </a>
             </li>
           </ul>
           <ul className="navbar-nav ml-auto">
