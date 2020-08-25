@@ -1,17 +1,22 @@
 import React from 'react';
 
-const Course = (props) => {
+const EBook = (props) => {
   return (
     <div id={props.id} className="media product-item-container">
-      <h3>Course</h3>
-      <img
-        className="mr-3"
-        src="https://picsum.photos/100"
-        loading="lazy"
-        alt="random placeholder image"
-      />
+      <div>
+        <h3>eBook</h3>
+      </div>
+      <div>
+        <img
+          className="mr-3"
+          src="https://picsum.photos/100"
+          loading="lazy"
+          alt="random placeholder image"
+        />
+      </div>
       <div className="media-body">
         <h4>{props.name}</h4>
+        <br />
         {props.description}
         <hr />
         <div>
@@ -22,4 +27,4 @@ const Course = (props) => {
   );
 };
 
-export default Course;
+export default EBook;
